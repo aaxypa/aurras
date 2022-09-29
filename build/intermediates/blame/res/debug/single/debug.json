@@ -1,0 +1,214 @@
+[
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\font_productsans_italic.ttf.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\font\\productsans_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\font_longhaul.ttf.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\font\\longhaul.ttf"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_chat.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_community.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\community.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_caution_24px.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\caution_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_oval_button_2.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\oval_button_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_button_24px.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\back_button_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_oval_button.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\oval_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_library.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\library.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\menu\\bottom_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_aurass_splashicon.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\aurass_splashicon.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_passcode.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\layout\\activity_forgot_passcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_library.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\layout\\fragment_library.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_music_player.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\layout\\activity_music_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\font_poetsen_regular.ttf.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\font\\poetsen_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_purpblue.jpg.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\background_purpblue.jpg"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\font_productsans_bolditalic.ttf.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\font\\productsans_bolditalic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\font_productsans_bold.ttf.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\font\\productsans_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\font_mithella_regular.otf.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\font\\mithella_regular.otf"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_community.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\layout\\fragment_community.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\font_ariestha_script.ttf.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\font\\ariestha_script.ttf"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background1.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\background1.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\font_productsans_regular.ttf.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\font\\productsans_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_page_not_found.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\page_not_found.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\font_mithella_bold.otf.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\font\\mithella_bold.otf"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_aurass_icon_v2.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\aurass_icon_v2.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_page_not_found.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\layout\\activity_page_not_found.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\drawable\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\neal-PC\\AndroidStudioProjects\\Aurras_MDev\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]
