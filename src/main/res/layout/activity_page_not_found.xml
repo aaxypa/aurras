@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#413768"
+    tools:context=".PageNotFound">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/TopGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/BottomGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/LeftGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/RightGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="25dp" />
+
+    <ImageView
+        android:id="@+id/BackgroundXML_PN"
+        android:layout_width="600dp"
+        android:layout_height="900dp"
+        android:contentDescription="@string/Background1Description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="47:100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502"
+        app:srcCompat="@drawable/background1" />
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/BackButtonDescription"
+        android:scaleType="fitCenter"
+        android:scrollX="100dp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide"
+        app:srcCompat="@drawable/back_button_24px" />
+
+    <TextView
+        android:id="@+id/ForgotPassCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/ForgotPassIndicator"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <ImageView
+        android:id="@+id/NotFound"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:clickable="true"
+        android:contentDescription="@string/NotFoundDescription"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide"
+        app:srcCompat="@drawable/page_not_found" />
+
+    <TextView
+        android:id="@+id/Oops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:text="@string/NotFoundText"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/BottomGuide"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

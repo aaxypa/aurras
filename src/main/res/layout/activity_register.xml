@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3800b3"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/BackgroundJPG"
+        android:layout_width="415dp"
+        android:layout_height="735dp"
+        android:contentDescription="@string/BackgroundJPGDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_purpblue" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/TopGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/BottomGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/LeftGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/RightGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="25dp" />
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/BackButtonDescription"
+        android:scaleType="fitCenter"
+        android:scrollX="100dp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide"
+        app:srcCompat="@drawable/back_button_24px" />
+
+    <TextView
+        android:id="@+id/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/RegistrationIndicator"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <TextView
+        android:id="@+id/UsernameSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/UsernameIndicator"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <EditText
+        android:id="@+id/UsernameInputSP"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="125dp"
+        android:autofillHints="Email Address"
+        android:ems="10"
+        android:hint="@string/UsernameDesc"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#B0EEFD"
+        android:textColorHint="#CFA3C8"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <TextView
+        android:id="@+id/PasscodeSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/PasscodeIndicator"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <EditText
+        android:id="@+id/PasscodeInputSP"
+        android:layout_width="220dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="205dp"
+        android:autofillHints="Password"
+        android:ems="10"
+        android:hint="@string/PasscodeDesc"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#B0EEFD"
+        android:textColorHint="#CFA3C8"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <TextView
+        android:id="@+id/ConfirmPasscodeSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="260dp"
+        android:text="@string/ConfirmPasscodeIndicator"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <EditText
+        android:id="@+id/ConfirmPasscodeInputSP"
+        android:layout_width="220dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="285dp"
+        android:autofillHints="Passcode"
+        android:ems="10"
+        android:hint="@string/ConfirmPassDescription"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#B0EEFD"
+        android:textColorHint="#CFA3C8"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <ImageView
+        android:id="@+id/CautionAlertForPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="290dp"
+        android:contentDescription="@string/CautionDescriptionPW"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/ConfirmPasscodeInputSP"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide"
+        app:srcCompat="@drawable/caution_24px" />
+
+    <TextView
+        android:id="@+id/EmailSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="375dp"
+        android:text="@string/EmailIndicator"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <EditText
+        android:id="@+id/EmailInputSP"
+        android:layout_width="220dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="400dp"
+        android:autofillHints="Email"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/EmailDescription"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#B0EEFD"
+        android:textColorHint="#CFA3C8"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <Button
+        android:id="@+id/SUNextButton"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/oval_button"
+        android:text="@string/NextButton"
+        android:textAllCaps="false"
+        android:textColor="#5E548E"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/BottomGuide"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

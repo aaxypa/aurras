@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "900785844747",
+    "project_id": "aurras-mdev",
+    "storage_bucket": "aurras-mdev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900785844747:android:f465a38c1d25796fc8cd0e",
+        "android_client_info": {
+          "package_name": "com.example.aurras_mdev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900785844747-nlbv5gvbfehbrnbimt30om4j53td58aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASGIDQxqDWrN9gjM2WTtiVWWRcUtBNHsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900785844747-nlbv5gvbfehbrnbimt30om4j53td58aj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

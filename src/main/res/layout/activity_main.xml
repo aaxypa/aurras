@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#231942"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/TopGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/MidGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="300dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/BottomGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/LeftGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/RightGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="25dp" />
+
+    <ImageView
+        android:id="@+id/BackgroundXML"
+        android:layout_width="600dp"
+        android:layout_height="900dp"
+        android:contentDescription="@string/Background1Description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="47:100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502"
+        app:srcCompat="@drawable/background1" />
+
+    <ImageView
+        android:id="@+id/AppIcon"
+        android:onClick="AppVersion"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/AppIconDescription"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide"
+        app:srcCompat="@drawable/aurass_icon_v2" />
+
+    <TextView
+        android:id="@+id/AppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/productsans_bold"
+        android:text="@string/AppNameTitle"
+        android:textColor="#e0b1cb"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="220dp"
+        android:text="@string/UsernameIndicator"
+        android:textColor="#E0B1CB"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/MidGuide" />
+
+    <EditText
+        android:id="@+id/UsernameInput"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="Email Address"
+        android:ems="10"
+        android:hint="@string/UsernameDesc"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#E0B1CB"
+        android:textColorHint="#7B67BC"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/MidGuide" />
+
+    <TextView
+        android:id="@+id/Passcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="220dp"
+        android:text="@string/PasscodeIndicator"
+        android:textColor="#E0B1CB"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/MidGuide" />
+
+    <EditText
+        android:id="@+id/PasscodeInput"
+        android:layout_width="220dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="55dp"
+        android:autofillHints="Password"
+        android:ems="10"
+        android:hint="@string/PasscodeDesc"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#E0B1CB"
+        android:textColorHint="#7B67BC"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/MidGuide" />
+
+    <Button
+        android:id="@+id/ForgotPasscodeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/ForgotPass"
+        android:textColor="#E0B1CB"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/MidGuide" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/oval_button"
+        android:text="@string/LoginButton"
+        android:textAllCaps="false"
+        android:textColor="#5E548E"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/MidGuide" />
+
+    <TextView
+        android:id="@+id/CreateAccount"
+        android:textColor="#E0B1CB"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="105dp"
+        android:text="@string/CreateAccountIndicator"
+        app:layout_constraintBottom_toTopOf="@+id/BottomGuide"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide" />
+
+    <Button
+        android:id="@+id/RegisterButton"
+        android:text="@string/RegisterButton"
+        android:textAllCaps="false"
+        android:textColor="#5E548E"
+        android:textSize="15sp"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/oval_button"
+        app:layout_constraintBottom_toTopOf="@+id/BottomGuide"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

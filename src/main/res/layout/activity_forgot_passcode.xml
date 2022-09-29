@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#413768"
+    tools:context=".ForgotPasscode">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/TopGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/BottomGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/LeftGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/RightGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="25dp" />
+
+    <ImageView
+        android:id="@+id/BackgroundXML_FP"
+        android:layout_width="600dp"
+        android:layout_height="900dp"
+        android:contentDescription="@string/Background1Description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="47:100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502"
+        app:srcCompat="@drawable/background1" />
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/BackButtonDescription"
+        android:scaleType="fitCenter"
+        android:scrollX="100dp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide"
+        app:srcCompat="@drawable/back_button_24px" />
+
+    <TextView
+        android:id="@+id/ForgotPassCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/ForgotPassIndicator"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <TextView
+        android:id="@+id/Header1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/ForgotPasscodeHeader1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <TextView
+        android:id="@+id/Header2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/ForgotPasscodeHeader2"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <RadioGroup
+        android:id="@+id/SelectVerifyOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide">
+
+        <RadioButton
+            android:id="@+id/SelectPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:text="@string/PhoneSelected"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+            app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+            app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+        <RadioButton
+            android:id="@+id/SelectEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/EmailSelected"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/RightGuide"
+            app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+            app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/CantRememberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="260dp"
+        android:background="@android:color/transparent"
+        android:text="@string/NoneSelected"
+        android:textAllCaps="false"
+        android:textColor="#E0B1CB"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/LeftGuide"
+        app:layout_constraintTop_toTopOf="@+id/TopGuide" />
+
+    <Button
+        android:id="@+id/FPNextButton"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/oval_button"
+        android:text="@string/NextButton"
+        android:textAllCaps="false"
+        android:textColor="#5E548E"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/BottomGuide"
+        app:layout_constraintEnd_toStartOf="@+id/RightGuide" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

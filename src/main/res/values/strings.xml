@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Aurras_MDev</string>
+    <string name="LoginButton">Login</string>
+    <string name="Background1Description">XML for BG1</string>
+    <string name="RegisterButton">Register</string>
+    <string name="AppNameTitle">Aurras</string>
+    <string name="AppIconDescription">Aurras app image</string>
+
+    <string name="UsernameIndicator">Username</string>
+    <string name="UsernameDesc">Enter username</string>
+
+    <string name="PasscodeIndicator">Passcode</string>
+    <string name="PasscodeDesc">Enter passcode</string>
+
+    <string name="ForgotPass">Forgot passcode?</string>
+    <string name="CreateAccountIndicator">Create Account</string>
+
+    <!-- string for launcher end -->
+    <string name="BackButtonDescription">Utilizes the back button</string>
+    <string name="ForgotPassIndicator">Forgot passcode</string>
+    <string name="ForgotPasscodeHeader1">We need to verify your identity</string>
+    <string name="ForgotPasscodeHeader2">How would you like to reset your passcode?</string>
+    <string name="PhoneSelected">Send a code to my phone</string>
+    <string name="EmailSelected">Send a code to my email</string>
+    <string name="NoneSelected">Can\'t remember my phone or email</string>
+    <string name="NextButton">Next</string>
+
+    <!-- string for forgot passcode page end -->
+    <string name="NotFoundDescription">Page went nowhere</string>
+    <string name="NotFoundText">Oops! Content unavailable</string>
+
+    <!-- string for page not found end -->
+    <string name="BackgroundJPGDescription">JPG for BG2</string>
+    <string name="RegistrationIndicator">Sign up</string>
+    <string name="ConfirmPassDescription">Repeat Passcode</string>
+    <string name="CautionDescriptionPW">This will show up if the passcode values are not the same</string>
+    <string name="EmailIndicator">Email</string>
+    <string name="EmailDescription">Enter email</string>
+    <string name="ConfirmPasscodeIndicator">Confirm passcode</string>
+</resources>

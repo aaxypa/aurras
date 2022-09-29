@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Pink_E0B">#E0B1CB</color>
+    <color name="Pink_CFA">#CFA3C8</color>
+    <color name="Pink_BE9">#BE95C4</color>
+    <color name="LightPurpleLV1">#AF8EC2</color>
+    <color name="LightPurpleLV2">#9F86C0</color>
+    <color name="DarkPurpleLV1">#5E548E</color>
+    <color name="DarkPurpleLV2">#413768</color>
+    <color name="DarkPurpleLV3">#231942</color>
+</resources>
